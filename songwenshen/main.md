@@ -4,7 +4,7 @@
 
 * 作者：七阶子
 * 完稿：2020年5月
-* 网址： https://github.com/lymslive/drama/songwenshen
+* 源址：https://github.com/lymslive/drama 或 https://gitee.com/lymslive/drama
 * 正文字数：约 6.5 万
 * 版本声明：知识共享协议
 

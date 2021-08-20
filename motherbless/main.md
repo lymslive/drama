@@ -4,7 +4,7 @@
 
 * 作者：七阶子
 * 初稿：2021-07；改稿：2021-08
-* 网址： https://github.com/lymslive/drama/motherbless
+* 源址：https://github.com/lymslive/drama 或 https://gitee.com/lymslive/drama
 * 正文字数：约 5 万
 * 版权声明：知识共享协议
 
@@ -46,7 +46,7 @@
 
 青年：就是那尼比鲁星球不会在 2038 年回归地球呀……这 FreeBook 都传开了呢。
 
-（FreeBook 世界最大的社交 app ，前身是 FaceBook 。附近听到人男女停下，纷纷掏出
+（FreeBook 世界最大的社交 app ，前身是 FaceBook 。附近听到的男女停下，纷纷掏出
 手机，侍者也摸出手机。
 
 侍者：真的么？消息可靠吗？最初来源是哪？

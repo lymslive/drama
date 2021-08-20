@@ -130,7 +130,7 @@ function! s:class.deal_list(text) dict abort
             endif
         endif
         let l:sLine = substitute(l:sLine, '^\s*\*\s*', '', '')
-        let l:sLine = substitute(l:sLine, '\s*\(https\?://\S\+\)', '<a href="\1">\1</a>', '')
+        let l:sLine = substitute(l:sLine, '\(https\?://\S\+\)', '<a href="\1">\1</a>', 'g')
         let l:html = printf('<li>%s</li>', l:sLine)
         call add(self.html, l:html)
         let l:sLine = getline(self.curline)
