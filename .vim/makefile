@@ -1,5 +1,8 @@
 VIMDIR ?= ../.vim
-TARGET ?= ../docs/main.html
+DOCDIR ?= ../docs
+MAIN   ?= main.html
+TARGET := $(DOCDIR)/$(MAIN)
+
 STATS = $(VIMDIR)/stats.vim
 TOHTML = $(VIMDIR)/tohtml.vim
 HTML_DEP = $(TOHTML) $(VIMDIR)/juben.html
