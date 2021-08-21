@@ -1,4 +1,5 @@
 VIMDIR ?= ../.vim
+TARGET ?= ../docs/main.html
 STATS = $(VIMDIR)/stats.vim
 TOHTML = $(VIMDIR)/tohtml.vim
 HTML_DEP = $(TOHTML) $(VIMDIR)/juben.html
@@ -16,7 +17,9 @@ stats: stats.md
 stats.md: main.md $(STATS)
 	vim -E -s -c "source $(STATS)" -cxall main.md
 
-html: main.html
+html: $(TARGET)
 
-main.html: main.md $(HTML_DEP)
+# 脚本固定生成 main.html ，再移动到目标中
+$(TARGET): main.md $(HTML_DEP)
 	vim -E -s -c "source $(TOHTML)" -cxall main.md
+	mv main.html $(TARGET)
