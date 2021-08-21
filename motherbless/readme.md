@@ -5,7 +5,11 @@
 
 ## 阅读正文 main.md
 
-[点此阅读正文](https://lymslive.github.io/motherbless/main.html) 或原始文档 [main.md](main.md) ：一稿完成，v1.01 修改中。
+* [阅读站点 github](https://lymslive.github.io/drama/motherbless.html)
+* [阅读站点 gitee](https://lymslive.gitee.io/drama/motherbless.html)
+* [原始文档 main.md](main.md)
+
+正文约 5 万字。
 
 ## 其他文档
 
@@ -26,8 +30,7 @@
 
 ## 批评与贡献
 
-可在本站讨论区 [Discussions](https://github.com/lymslive/motherbless/discussions) 留言，
-请用中文讨论文学话题。也可当作正常仓库使用 fork/Issues 功能。
+可在“Issues”或“Discussions”区讨论，请用中文讨论文学话题。
 
 没有且不想注册 github 帐号的朋友，可给作者发邮件： 403708621@qq.com ，但该 QQ
 号已不常用，不一定能响应加 qq 好友。

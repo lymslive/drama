@@ -5,12 +5,13 @@
 
 ## 阅读正文 main.md
 
-[点此阅读正文](https://lymslive.github.io/songwenshen/main.html)或原始文档[main.md](main.md)：约 6.5 万字。
+* [阅读站点 github](https://lymslive.github.io/drama/songwenshen.html)
+* [阅读站点 gitee](https://lymslive.gitee.io/drama/songwenshen.html)
+* [原始文档 main.md](main.md)
+
+正文约 6.5 万字。
 
 [修订历史](material/history.md)：
-
-* v1.1：当前版本。精简前半段，稍充实后半段主题。
-* [v1.0](https://github.com/lymslive/songwenshen/tree/v1.0)：初版完稿。
 
 ## 其他文档
 
@@ -31,7 +32,7 @@
 
 ## 批评与贡献
 
-可在“Discussions”区讨论，请用中文讨论文学话题。
+可在“Issues”或“Discussions”区讨论，请用中文讨论文学话题。
 
 没有且不想注册 github 帐号的朋友，可给作者发邮件： 403708621@qq.com ，但该 QQ
 号已不常用，不一定能响应加 qq 好友。
