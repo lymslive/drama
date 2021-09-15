@@ -2,7 +2,7 @@
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
 
-本文集同步更新在开源代码托管网站上：
+本文集主要为电影文学剧本，中篇故事，同步更新在开源代码托管网站上：
 
 * https://github.com/lymslive/drama
 * https://gitee.com/lymslive/drama
@@ -11,13 +11,13 @@
 
 ## 剧本目录
 
-* [保和堂外传之送瘟神](songwenshen) ——新白娘子神话版抗疫战电影文学剧本
+* [保和堂外传之送瘟神](songwenshen) ——新白娘子神话版抗疫战
   [github](https://lymslive.github.io/drama/songwenshen.html)
   [gitee](https://lymslive.gitee.io/drama/songwenshen.html)
-* [母亲在上](motherbless) ——2098 末日题材科幻神话浪漫主义英雄史诗电影文学剧本
+* [母亲在上](motherbless) ——2098 末日题材科幻神话浪漫主义英雄史诗
   [github](https://lymslive.github.io/drama/motherbless.html)
   [gitee](https://lymslive.gitee.io/drama/motherbless.html)
-* [登萍渡水](standocean) ——女特工率领机器人战队挽救海洋危机电影文学剧本（计划中）
+* [领航东瀛洲](standocean) ——大国风范挽救海洋危机（计划中）
 
 ## 补充说明
 
