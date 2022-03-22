@@ -9,7 +9,7 @@ HTML_DEP = $(TOHTML) $(VIMDIR)/juben.html
 
 .PHONY: all help stats html
 
-all: stats html
+all: stats html pdf
 
 help:
 	@echo make stats 生成统计信息
@@ -26,3 +26,14 @@ html: $(TARGET)
 $(TARGET): main.md $(HTML_DEP)
 	vim -E -s -c "source $(TOHTML)" -cxall main.md
 	mv main.html $(TARGET)
+
+# 从 html 转为 pdf
+PDFBOOK = $(patsubst %.html,%.pdf,$(TARGET))
+pdf : $(PDFBOOK)
+TEMP_HTML = $(DOCDIR)/tmp-$(MAIN)
+SED_ACTION = '/<div id="navigator">/,/--navigator--/d'
+$(PDFBOOK) : $(TARGET)
+	sed $(SED_ACTION) $(TARGET) > $(TEMP_HTML)
+	$(VIMDIR)/wkhtmltopdf-juben.sh $(TEMP_HTML) $(PDFBOOK)
+	rm $(TEMP_HTML)
+

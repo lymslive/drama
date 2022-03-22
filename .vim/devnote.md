@@ -43,6 +43,20 @@ sudo apt install wkhtmltopdf
 
 ```
 wkhtmltopdf songwenshen.html songwenshen.pdf
+wkhtmltopdf toc --toc-header-text "目录" motherbless.html --allow . motherbless.pdf
 ```
 
-安装时 qt 不完全，没法生成 toc 与 outline
+安装时 qt 不完全，没法生成 toc 与 outline. 可去官网下载 static 版本：
+https://wkhtmltopdf.org/downloads.html
+
+```
+dpkg -i xxx.deb
+```
+
+从 html 转 pdf 时可用 sed 删除导航 div 元素
+
+```
+sed '/^    <div id="navigator">/, /^    <\/div>/ d' songwenshen.html | less
+# 模板加上尾注释更方便
+sed '/<div id="navigator">/,/--navigator--/d' juben.html | less
+```
